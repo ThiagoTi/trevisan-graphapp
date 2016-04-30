@@ -6,7 +6,6 @@ App for drawing graphs and generating .svg and .pdf files of it. It has also a F
 Fot input files, you'll need .txt files containing:
 
 - Adjacency matrix:
-
 ```
 0 1 0 0 0 1 0 0 0 0 0 0 0 1
 1 0 1 0 0 0 0 0 0 0 1 0 0 0
@@ -22,6 +21,30 @@ Fot input files, you'll need .txt files containing:
 0 0 0 0 0 0 1 0 0 0 1 0 1 0
 0 0 0 1 0 0 0 0 0 0 0 1 0 1
 1 0 0 0 0 0 0 0 1 0 0 0 1 0 
+```
+
+- Adjacency matrix, vertices with ID and positions fixed:
+```
+0 0 0 1 0 1 1 0 0 0
+0 0 1 1 0 0 0 0 1 0
+0 1 0 0 1 0 0 1 0 0
+1 1 0 0 0 0 0 1 0 0
+0 0 1 0 0 0 0 0 1 1
+1 0 0 0 0 0 0 1 0 1
+1 0 0 0 0 0 0 0 1 1
+0 0 1 1 0 1 0 0 0 0
+0 1 0 0 1 0 1 0 0 0
+0 0 0 0 1 1 1 0 0 0
+v0 213 750
+v1 608 274
+v2 464 153
+v3 322 419
+v4 595 405
+v5 153 529
+v6 533 741
+v7 205 248
+v8 742 518
+v9 420 597
 ```
 
 - Edge list:
