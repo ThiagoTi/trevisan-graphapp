@@ -64,7 +64,7 @@ v9 420 597
 6 7
 ```
 
--Edge list, vertices with ID and positions fixed:
+- Edge list, vertices with ID and positions fixed:
 ```
 8
 0 1
